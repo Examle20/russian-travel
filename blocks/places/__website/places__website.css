@@ -1,5 +1,10 @@
 .places__website {
   align-self: end;
   width: 456px;
+}
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__website {
+    width: 352px;
+  }
 }

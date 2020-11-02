@@ -12,9 +12,16 @@
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__title {
     left: 232px;
     bottom: 293px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover__title {
+    left: 104px;
+    bottom: 213px;
   }
 }
