@@ -11,3 +11,10 @@
   left: 360px;
 
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .cover__title {
+    left: 232px;
+    bottom: 293px;
+  }
+}

@@ -4,3 +4,10 @@
   margin: 0 auto;
   font-family: Inter;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .page {
+    min-width: 1024px;
+    max-width: 1280px;
+  }
+}
