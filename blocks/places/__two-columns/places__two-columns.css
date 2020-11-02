@@ -16,3 +16,11 @@
     column-gap: 28px;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places__two-columns {
+    grid-template-columns: repeat(1, min-content);
+    grid-template-rows: repeat(auto, min-content);
+    gap: 32px;
+  }
+}
