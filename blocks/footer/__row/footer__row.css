@@ -25,6 +25,6 @@
   .footer__row {
     flex-direction: column;
     width: 186px;
-    margin: 64px 118px 0 16px;
+    margin: 64px 0 0 16px;
   }
 }
